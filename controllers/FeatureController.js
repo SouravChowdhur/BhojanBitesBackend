@@ -202,8 +202,8 @@ const decrementQuantity = async (req, res) => {
             quantity: item.quantity,
           };
         }),
-        success_url: "http://localhost:5173/success",
-        cancel_url: "http://localhost:5173/",
+        success_url: "https://bhojan-bites.vercel.app/success",
+        cancel_url: "https://bhojan-bites.vercel.app/",
       });
   
       res.json({ url: session.url });
