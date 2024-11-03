@@ -10,7 +10,7 @@ const routes = require("./routes");
 connectDb();
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://bhojan-bites.vercel.app/"],
+    origin: ["http://localhost:5173","https://bhojan-bites.vercel.app"],
     credentials: true,
   })
 );
